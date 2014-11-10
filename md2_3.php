@@ -61,7 +61,7 @@ class FindWord {
 		/**
 		 * Ja vārda garums pārsniedz, metam nost vārdu
 		 */
-		if(strlen($word) >= $this->search_length) {
+		if(strlen($word) > $this->search_length) {
 			return;
 		}
 
